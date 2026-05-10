@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# Environment
+.env
+*.env
+
+# Logs
+*.log
+logs/
+
+# Data files - büyük veri dosyalarını GitHub'a yükleme
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.jsonl
+
+# Docker
+docker-data/
+kafka-data/
+zookeeper-data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
