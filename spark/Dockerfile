@@ -16,5 +16,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY streaming_to_delta.py .
 COPY train_model.py .
+COPY check_bronze.py .
+COPY bronze_to_silver.py .
+COPY silver_to_gold.py .
 
 CMD ["tail", "-f", "/dev/null"]
