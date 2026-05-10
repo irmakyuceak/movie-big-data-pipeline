@@ -19,5 +19,7 @@ COPY train_model.py .
 COPY check_bronze.py .
 COPY bronze_to_silver.py .
 COPY silver_to_gold.py .
+COPY feature_engineering.py .
+COPY train_regression_models.py .
 
 CMD ["tail", "-f", "/dev/null"]
