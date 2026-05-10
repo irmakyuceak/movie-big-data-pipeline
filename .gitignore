@@ -38,3 +38,6 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+# MLflow artifacts
+mlruns/
